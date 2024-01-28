@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+form {
+    width: 60vw;
+    max-width: 750px;
+    min-width: 450px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+.form {
+    border: none;
+    background-color: rgb(42, 34, 65);
+    color: white;
+    margin-left: 5px;
+}
+label {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0.5rem 0;
+    margin-left: 5px;
+}
+#name, #email, #number{
+    display:block;
+    padding:0.5rem;
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+}
